@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crosshair</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="main.js"></script>
+</head>
+<body>
+    <img id="crosshair" style="display: none";>
+    <div id="crosshair-ui" style="display: none;">
+        <h2 id="crosshair-ui-title">Custom Crosshair</h2>
+        <p id="crosshair-ui-url-title">URL Link</p>
+        <input id="crosshair-ui-url" name="url" type="text" placeholder="Crosshair URL Link">
+        <p id="crosshair-ui-size-title">Crosshair Size</p>
+        <input id="crosshair-ui-size" name="size" type="text" placeholder="25, 1000, ...">
+        <button id="crosshair-ui-submit" onclick="UpdateCrosshairData()">Save Crosshair</button>
+    </div>
+</body>
+</html>
